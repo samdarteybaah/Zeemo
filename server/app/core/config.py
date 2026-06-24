@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     # AI Provider
     GROQ_API_KEY: str
     GROQ_MODEL: str
+    AI_REQUEST_TIMEOUT_SECONDS: int = 30
     
     OPENAI_API_KEY: str
     OPENAI_MODEL: str = "gpt-4o-mini"
